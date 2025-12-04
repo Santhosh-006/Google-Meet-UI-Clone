@@ -15,11 +15,15 @@
       class="flex flex-col md:flex-row space-y-3 md:space-y-0 justify-between items-center px-8 py-3"
     >
       <div class="flex items-center space-x-5">
-        <svg class="w-7 h-7" focusable="false" viewBox="0 0 24 24">
+        <svg
+          class="w-8 h-8 hover:bg-gray-200 p-1 rounded-full cursor-pointer"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
           <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
         </svg>
         <img
-          class="mr-1"
+          class="mr-1 cursor-pointer"
           src="https://www.gstatic.com/meet/google_meet_horizontal_wordmark_2020q4_1x_icon_124_40_2373e79660dabbf194273d27aa7ee1f5.png"
           alt="Google Meet"
         />
@@ -27,20 +31,27 @@
       </div>
       <div class="flex items-center space-x-14">
         <div class="flex items-center space-x-7">
-          <span class="material-symbols-outlined"> help </span>
+          <span
+            class="material-symbols-outlined cursor-pointer hover:bg-gray-200 p-1 rounded-full"
+          >
+            help
+          </span>
           <img
             src="./src/img/feedback_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
             alt="Feedback"
+            class="cursor-pointer hover:bg-gray-200 p-1 rounded-full"
           />
           <img
             src="./src/img/settings_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
+            class="cursor-pointer hover:bg-gray-200 p-1 rounded-full"
           />
         </div>
         <div class="flex items-center space-x-7">
           <img
             src="./src/img/apps_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
             alt=""
+            class="cursor-pointer hover:bg-gray-200 p-1 rounded-full"
           />
           <img
             src="./src/img/account_circle_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg"
@@ -52,7 +63,7 @@
     <section class="flex min-h-96">
       <div class="w-72 py-5 md:block hidden">
         <div
-          class="flex items-center space-x-2 p-5 bg-blue-400/15 rounded-r-full"
+          class="flex items-center space-x-2 p-5 cursor-pointer bg-blue-400/15 rounded-r-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +79,7 @@
           <span class="text-lg font-semibold text-blue-500">Meetings</span>
         </div>
         <div
-          class="flex items-center space-x-2 p-5 hover:bg-gray-200 hover:rounded-r-full"
+          class="flex items-center space-x-2 p-5 cursor-pointer hover:bg-gray-200 hover:rounded-r-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -85,18 +96,18 @@
         </div>
       </div>
       <div class="flex-1 flex flex-col items-center py-5">
-        <div class="lg:w-2/5 p-3">
-          <p class="text-4xl xl:text-5xl text-center leading-16">
+        <div class="xl:w-2/5 w-4/5 p-3">
+          <p class="text-5xl text-center leading-16">
             Video calls and meetings for everyone
           </p>
-          <p class="text-2xl text-center text-gray-500">
+          <p class="text-2xl text-center text-gray-500 my-2">
             Connect,colloborate,and celebrate from anywhere with Google Meet
           </p>
           <div
             class="flex flex-col md:flex-row space-y-5 md:space-y-0 justify-center items-center space-x-4 py-3"
           >
             <div
-              class="flex items-center space-x-2 p-3 bg-blue-500 rounded-3xl"
+              class="flex items-center space-x-2 p-3 cursor-pointer bg-blue-500 rounded-3xl"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -132,7 +143,7 @@
               />
             </div>
             <span
-              class="p-4 font font-semibold rounded-3xl hover:bg-blue-500 hover:text-white"
+              class="p-4 font font-semibold rounded-3xl cursor-pointer hover:bg-blue-500 hover:text-white"
               >Join</span
             >
           </div>
